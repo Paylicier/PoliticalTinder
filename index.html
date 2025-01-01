@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PoliticalTinder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .card {
+        transition: transform 0.5s ease, opacity 0.5s ease;
+        cursor: grab;
+        user-select: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .card.dragging {
+        transition: none;
+      }
+      .swipe-left {
+        transform: translateX(-100%) rotate(-30deg);
+        opacity: 0;
+      }
+      .swipe-right {
+        transform: translateX(100%) rotate(30deg);
+        opacity: 0;
+      }
+      .indicator {
+        position: absolute;
+        top: 20px;
+        font-size: 3rem;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      .indicator.left {
+        left: 20px;
+        color: red;
+      }
+      .indicator.right {
+        right: 20px;
+        color: green;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      .overlay.like {
+        background: rgba(0, 255, 0, 0.3);
+      }
+      .overlay.dislike {
+        background: rgba(255, 0, 0, 0.3);
+      }
+      .card-enter {
+        animation: cardEnter 0.3s ease;
+      }
+      @keyframes cardEnter {
+        0% {
+          transform: translateY(20px) scale(0.95);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0) scale(1);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-100 to-gray-200 dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 min-h-screen flex flex-col items-center justify-center"
+  >
+    <button
+      id="theme-toggle"
+      class="absolute top-4 right-4 p-2 bg-gray-200 dark:bg-gray-700 rounded-full"
+    >
+      🌓
+    </button>
+
+    <div id="card-container" class="relative w-96 h-[500px]">
+      <!-- Cards -->
+      <div class="indicator left">👎</div>
+      <div class="indicator right">👍</div>
+    </div>
+
+    <div class="mt-8 flex space-x-8">
+      <button
+        id="dislike-btn"
+        class="p-4 bg-red-500 text-white rounded-full shadow-lg hover:bg-red-600"
+      >
+        👎
+      </button>
+      <button
+        id="like-btn"
+        class="p-4 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600"
+      >
+        👍
+      </button>
+    </div>
+
+    <script>
+      // Memo for politicalAlignment : 0 = Center, -1 = Far Left, 1 = Far Right
+
+      const choices = [
+        {
+          name: "Choice 1 (Center)",
+          politicalAlignment: 0,
+          image: "https://picsum.photos/150",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+        {
+          name: "Choice 2 (Left)",
+          politicalAlignment: -0.5,
+          image: "https://picsum.photos/151",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+        {
+          name: "Choice 3 (Right)",
+          politicalAlignment: 0.5,
+          image: "https://picsum.photos/152",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+        {
+          name: "Choice 4 (Center)",
+          politicalAlignment: 0,
+          image: "https://picsum.photos/153",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+        {
+          name: "Choice 5 (Far Left)",
+          politicalAlignment: -0.5,
+          image: "https://picsum.photos/154",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        },
+        {
+          name: "Choice 6 (Far Right)",
+          politicalAlignment: 0.5,
+          image: "https://picsum.photos/155",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        }
+      ];
+
+      let currentIndex = 0;
+      let isAnimating = false;
+      const cardContainer = document.getElementById("card-container");
+      const leftIndicator = document.querySelector(".indicator.left");
+      const rightIndicator = document.querySelector(".indicator.right");
+
+      function createCard(choice) {
+        const card = document.createElement("div");
+        card.className =
+          "card absolute w-full h-full bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden";
+        card.innerHTML = `
+        <img src="${choice.image}" alt="${choice.name}" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h2 class="text-xl font-bold dark:text-white">${choice.name}</h2>
+          <p class="text-gray-600 dark:text-gray-300">${choice.description}</p>
+        </div>
+        <div class="overlay like"></div>
+        <div class="overlay dislike"></div>
+      `;
+        return card;
+      }
+
+      function renderCards() {
+        cardContainer.innerHTML = "";
+        const cardsToShow = choices.slice(currentIndex, currentIndex + 3);
+        cardsToShow.forEach((choice, index) => {
+          const card = createCard(choice);
+          if (index === 0) {
+            card.classList.add("card-enter");
+          } else {
+            card.style.transform = `translateY(${index * 20}px) scale(${
+              1 - index * 0.05
+            })`;
+          }
+          card.style.zIndex = cardsToShow.length - index;
+          cardContainer.appendChild(card);
+        });
+        addDragListeners(cardContainer.querySelector(".card"));
+      }
+
+      function addDragListeners(card) {
+        let isDragging = false;
+        let startX, startY, offsetX, offsetY;
+
+        card.addEventListener("mousedown", startDrag);
+        card.addEventListener("touchstart", startDrag, { passive: true });
+
+        function startDrag(e) {
+          if (isAnimating) return;
+          isDragging = true;
+          card.classList.add("dragging");
+          startX = e.clientX || e.touches[0].clientX;
+          startY = e.clientY || e.touches[0].clientY;
+          document.addEventListener("mousemove", drag);
+          document.addEventListener("touchmove", drag, { passive: true });
+          document.addEventListener("mouseup", endDrag);
+          document.addEventListener("touchend", endDrag);
+        }
+
+        function drag(e) {
+          if (!isDragging) return;
+          offsetX = (e.clientX || e.touches[0].clientX) - startX;
+          offsetY = (e.clientY || e.touches[0].clientY) - startY;
+          const rotate = offsetX * 0.1;
+          card.style.transform = `translate(${offsetX}px, ${offsetY}px) rotate(${rotate}deg)`;
+
+          const opacity = Math.min(Math.abs(offsetX) / 100, 1);
+          if (offsetX > 0) {
+            rightIndicator.style.opacity = opacity;
+            leftIndicator.style.opacity = 0;
+            card.querySelector(".overlay.like").style.opacity = opacity;
+            card.querySelector(".overlay.dislike").style.opacity = 0;
+          } else {
+            leftIndicator.style.opacity = opacity;
+            rightIndicator.style.opacity = 0;
+            card.querySelector(".overlay.dislike").style.opacity = opacity;
+            card.querySelector(".overlay.like").style.opacity = 0;
+          }
+        }
+
+        function endDrag() {
+          if (!isDragging) return;
+          isDragging = false;
+          card.classList.remove("dragging");
+          document.removeEventListener("mousemove", drag);
+          document.removeEventListener("touchmove", drag);
+          document.removeEventListener("mouseup", endDrag);
+          document.removeEventListener("touchend", endDrag);
+
+          const threshold = 100;
+          if (Math.abs(offsetX) > threshold) {
+            swipeCard(offsetX > 0 ? "right" : "left");
+          } else {
+            card.style.transition = "transform 0.3s ease";
+            card.style.transform = "translate(0, 0) rotate(0deg)";
+            setTimeout(() => {
+              card.style.transition = "";
+            }, 300);
+          }
+
+          leftIndicator.style.opacity = 0;
+          rightIndicator.style.opacity = 0;
+          card.querySelector(".overlay.like").style.opacity = 0;
+          card.querySelector(".overlay.dislike").style.opacity = 0;
+        }
+      }
+
+      function swipeCard(direction) {
+        if (isAnimating) return;
+        isAnimating = true;
+
+        const card = cardContainer.querySelector(".card");
+        if (!card) return;
+
+        if (direction === "right") {
+          card.querySelector(".overlay.like").style.opacity = 1;
+        } else {
+          card.querySelector(".overlay.dislike").style.opacity = 1;
+        }
+
+        card.style.transition = "transform 0.5s ease, opacity 0.5s ease";
+        if (direction === "right") {
+          card.style.transform = "translateX(100%) rotate(30deg)";
+        } else {
+          card.style.transform = "translateX(-100%) rotate(-30deg)";
+        }
+        card.style.opacity = 0;
+
+        setTimeout(() => {
+          currentIndex++;
+          renderCards();
+          isAnimating = false;
+        }, 700); // (500 -> animation + 200 -> delay)
+      }
+
+      document
+        .getElementById("like-btn")
+        .addEventListener("click", () => swipeCard("right"));
+      document
+        .getElementById("dislike-btn")
+        .addEventListener("click", () => swipeCard("left"));
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") {
+          swipeCard("left");
+        } else if (e.key === "ArrowRight") {
+          swipeCard("right");
+        }
+      });
+
+      const themeToggle = document.getElementById("theme-toggle");
+      themeToggle.addEventListener("click", () => {
+        const htmlElement = document.documentElement;
+        htmlElement.classList.toggle("dark");
+        const isDarkMode = htmlElement.classList.contains("dark");
+        themeToggle.textContent = isDarkMode ? "🌞" : "🌓";
+      });
+
+      renderCards();
+    </script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              dark: {
+                bg: "#1a1a1a",
+                surface: "#2d2d2d",
+                border: "#404040",
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </body>
+</html>
