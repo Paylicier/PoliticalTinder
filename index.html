@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PoliticalTinder</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
     <style>
       .card {
         transition: transform 0.5s ease, opacity 0.5s ease;
@@ -27,19 +28,23 @@
         transform: translateX(100%) rotate(30deg);
         opacity: 0;
       }
+      .swipe-down {
+        transform: translateY(100%) rotate(0deg);
+        opacity: 0;
+      }
       .indicator {
         position: absolute;
-        top: 20px;
-        font-size: 3rem;
+        top: 10px;
+        font-size: 2rem;
         opacity: 0;
         transition: opacity 0.3s ease;
       }
       .indicator.left {
-        left: 20px;
+        left: 10px;
         color: red;
       }
       .indicator.right {
-        right: 20px;
+        right: 10px;
         color: green;
       }
       .overlay {
@@ -60,6 +65,7 @@
       .card-enter {
         animation: cardEnter 0.3s ease;
       }
+
       @keyframes cardEnter {
         0% {
           transform: translateY(20px) scale(0.95);
@@ -73,7 +79,7 @@
     </style>
   </head>
   <body
-    class="bg-gradient-to-br from-gray-100 to-gray-200 dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 min-h-screen flex flex-col items-center justify-center"
+    class="bg-gradient-to-br from-gray-100 to-gray-200 dark:bg-gradient-to-br dark:from-gray-800 dark:to-gray-900 min-h-screen flex flex-col items-center justify-center p-4"
   >
     <button
       id="theme-toggle"
@@ -82,100 +88,137 @@
       🌓
     </button>
 
-    <div id="card-container" class="relative w-96 h-[500px]">
+    <div id="card-container" class="relative w-full max-w-sm h-[70vh]">
       <!-- Cards -->
       <div class="indicator left">👎</div>
       <div class="indicator right">👍</div>
     </div>
 
-    <div class="mt-8 flex space-x-8">
+    <div class="mt-8 flex space-x-4">
       <button
         id="dislike-btn"
-        class="p-4 bg-red-500 text-white rounded-full shadow-lg hover:bg-red-600"
+        class="p-3 bg-red-500 text-white rounded-full shadow-lg hover:bg-red-600"
       >
         👎
       </button>
       <button
+        id="skip-btn"
+        class="p-3 bg-yellow-500 text-white rounded-full shadow-lg hover:bg-yellow-600"
+      >
+        ⏭️
+      </button>
+      <button
         id="like-btn"
-        class="p-4 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600"
+        class="p-3 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600"
       >
         👍
       </button>
     </div>
 
+    <div id="score-container" class="mt-8 text-center hidden">
+      <h2 class="text-xl font-bold dark:text-white">
+        Your Political Alignment
+      </h2>
+      <p id="score" class="text-lg dark:text-gray-300"></p>
+    </div>
+
+    <div
+      id="results-container"
+      class="hidden w-full max-w-4xl mt-8 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg"
+    >
+      <h2 class="text-xl font-bold dark:text-white mb-4">Your Votes</h2>
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <h3 class="text-lg font-bold dark:text-white mb-2">👍 Voted For</h3>
+          <ul id="for-list" class="space-y-2"></ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold dark:text-white mb-2">👎 Voted Against</h3>
+          <ul id="against-list" class="space-y-2"></ul>
+        </div>
+      </div>
+    </div>
+
     <script>
-      // Memo for politicalAlignment : 0 = Center, -1 = Far Left, 1 = Far Right
-
-      const choices = [
-        {
-          name: "Choice 1 (Center)",
-          politicalAlignment: 0,
-          image: "https://picsum.photos/150",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        },
-        {
-          name: "Choice 2 (Left)",
-          politicalAlignment: -0.5,
-          image: "https://picsum.photos/151",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        },
-        {
-          name: "Choice 3 (Right)",
-          politicalAlignment: 0.5,
-          image: "https://picsum.photos/152",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        },
-        {
-          name: "Choice 4 (Center)",
-          politicalAlignment: 0,
-          image: "https://picsum.photos/153",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        },
-        {
-          name: "Choice 5 (Far Left)",
-          politicalAlignment: -0.5,
-          image: "https://picsum.photos/154",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        },
-        {
-          name: "Choice 6 (Far Right)",
-          politicalAlignment: 0.5,
-          image: "https://picsum.photos/155",
-          description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        }
-      ];
-
+      let allChoices = [];
+      let currentChoices = [];
       let currentIndex = 0;
       let isAnimating = false;
       const cardContainer = document.getElementById("card-container");
       const leftIndicator = document.querySelector(".indicator.left");
       const rightIndicator = document.querySelector(".indicator.right");
+      const scoreContainer = document.getElementById("score-container");
+      const scoreElement = document.getElementById("score");
+      const resultsContainer = document.getElementById("results-container");
+      const forList = document.getElementById("for-list");
+      const againstList = document.getElementById("against-list");
+
+      let userVotes = [];
+      let userPoliticalAlignment = 0;
+      let lastAlignment = 0;
+      let stableCount = 0;
+
+      async function loadCards() {
+        const response = await fetch("cards.json");
+        allChoices = await response.json();
+        startGame();
+      }
+
+      function startGame() {
+        currentChoices = getRandomCards(10); // Start with 10 random cards
+        renderCards();
+      }
+
+      function getRandomCards(count) {
+        const shuffled = allChoices.sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, count);
+      }
+
+      function getAdaptedCards() {
+        // Filter cards that are closer to the user's political alignment
+        return allChoices
+          .filter(
+            (choice) =>
+              Math.abs(choice.forPoliticalAlignment - userPoliticalAlignment) <
+              0.5
+          )
+          .sort(
+            (a, b) =>
+              Math.abs(a.forPoliticalAlignment - userPoliticalAlignment) -
+              Math.abs(b.forPoliticalAlignment - userPoliticalAlignment)
+          )
+          .slice(0, 10); // Return top 10 relevant cards
+      }
 
       function createCard(choice) {
         const card = document.createElement("div");
         card.className =
-          "card absolute w-full h-full bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden";
+          "card absolute w-full h-full bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden flex flex-col";
         card.innerHTML = `
-        <img src="${choice.image}" alt="${choice.name}" class="w-full h-48 object-cover">
-        <div class="p-4">
-          <h2 class="text-xl font-bold dark:text-white">${choice.name}</h2>
-          <p class="text-gray-600 dark:text-gray-300">${choice.description}</p>
-        </div>
-        <div class="overlay like"></div>
-        <div class="overlay dislike"></div>
-      `;
+    <div class="p-3 flex-shrink-0">
+      <h2 class="text-lg font-bold dark:text-white">${choice.title}</h2>
+      <p class="text-sm text-gray-500 dark:text-gray-400 truncate">${choice.dateScrutin} • ${choice.totalVoters} voters</p>
+    </div>
+    <div class="p-3 overflow-y-auto flex-grow">
+      <p class="text-sm text-gray-600 dark:text-gray-300">${choice.summary}</p>
+    </div>
+    <div class="overlay like"></div>
+    <div class="overlay dislike"></div>
+  `;
         return card;
       }
 
       function renderCards() {
+        if (currentIndex >= currentChoices.length) {
+          currentChoices = getAdaptedCards(); // Adapt cards based on user's alignment
+          currentIndex = 0;
+        }
+
         cardContainer.innerHTML = "";
-        const cardsToShow = choices.slice(currentIndex, currentIndex + 3);
+        const cardsToShow = currentChoices.slice(
+          currentIndex,
+          currentIndex + 3
+        );
         cardsToShow.forEach((choice, index) => {
           const card = createCard(choice);
           if (index === 0) {
@@ -267,23 +310,109 @@
 
         if (direction === "right") {
           card.querySelector(".overlay.like").style.opacity = 1;
-        } else {
+          userVotes.push({ choice: currentChoices[currentIndex], vote: "for" });
+        } else if (direction === "left") {
           card.querySelector(".overlay.dislike").style.opacity = 1;
+          userVotes.push({
+            choice: currentChoices[currentIndex],
+            vote: "against",
+          });
         }
 
         card.style.transition = "transform 0.5s ease, opacity 0.5s ease";
         if (direction === "right") {
           card.style.transform = "translateX(100%) rotate(30deg)";
-        } else {
+        } else if (direction === "left") {
           card.style.transform = "translateX(-100%) rotate(-30deg)";
+        } else if (direction === "down") {
+          card.style.transform = "translateY(100%) rotate(0deg)";
         }
         card.style.opacity = 0;
 
         setTimeout(() => {
           currentIndex++;
-          renderCards();
+          calculatePoliticalAlignment();
+          if (stableCount >= 3) {
+            endGame();
+          } else {
+            renderCards();
+          }
           isAnimating = false;
         }, 700); // (500 -> animation + 200 -> delay)
+      }
+
+      function calculatePoliticalAlignment() {
+        let totalAlignment = 0;
+        userVotes.forEach((vote) => {
+          if (vote.vote === "for") {
+            totalAlignment += vote.choice.forPoliticalAlignment;
+          } else {
+            totalAlignment += vote.choice.againstPoliticalAlignment;
+          }
+        });
+        userPoliticalAlignment = totalAlignment / userVotes.length;
+
+        // Check if the alignment has stabilized
+        if (Math.abs(userPoliticalAlignment - lastAlignment) < 0.01) {
+          stableCount++;
+        } else {
+          stableCount = 0;
+        }
+        lastAlignment = userPoliticalAlignment;
+
+        scoreElement.textContent = userPoliticalAlignment.toFixed(2);
+        scoreContainer.classList.remove("hidden");
+      }
+
+      function endGame() {
+        // Hide the card container and buttons
+        cardContainer.classList.add("hidden");
+        document.querySelector(".mt-8.flex.space-x-4").classList.add("hidden");
+
+        // Show the score and results container
+        scoreContainer.classList.remove("hidden");
+        resultsContainer.classList.remove("hidden");
+
+        // Clear previous results
+        forList.innerHTML = "";
+        againstList.innerHTML = "";
+
+        // Populate the "For" and "Against" lists
+        userVotes.forEach((vote) => {
+          const listItem = document.createElement("li");
+          listItem.className = "flex items-center justify-between text-sm dark:text-gray-300";
+
+          const title = document.createElement("span");
+          title.textContent = vote.choice.title;
+
+          const scoreTag = document.createElement("span");
+          scoreTag.className = `px-2 py-1 rounded-full text-xs font-bold ${
+            vote.vote === "for" ? "bg-blue-500" : "bg-red-500"
+          } text-white`;
+          scoreTag.textContent = vote.vote === "for"
+            ? vote.choice.forPoliticalAlignment.toFixed(2)
+            : vote.choice.againstPoliticalAlignment.toFixed(2);
+
+          listItem.appendChild(title);
+          listItem.appendChild(scoreTag);
+
+          if (vote.vote === "for") {
+            forList.appendChild(listItem);
+          } else {
+            againstList.appendChild(listItem);
+          }
+        });
+
+        // Trigger confetti effect
+        triggerConfetti();
+      }
+
+      function triggerConfetti() {
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 },
+        });
       }
 
       document
@@ -292,12 +421,17 @@
       document
         .getElementById("dislike-btn")
         .addEventListener("click", () => swipeCard("left"));
+      document
+        .getElementById("skip-btn")
+        .addEventListener("click", () => swipeCard("down"));
 
       document.addEventListener("keydown", (e) => {
         if (e.key === "ArrowLeft") {
           swipeCard("left");
         } else if (e.key === "ArrowRight") {
           swipeCard("right");
+        } else if (e.key === "ArrowDown") {
+          swipeCard("down");
         }
       });
 
@@ -309,7 +443,7 @@
         themeToggle.textContent = isDarkMode ? "🌞" : "🌓";
       });
 
-      renderCards();
+      loadCards();
     </script>
     <script>
       tailwind.config = {
