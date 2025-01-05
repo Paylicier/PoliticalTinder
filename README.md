@@ -15,6 +15,9 @@ Amendents summaries are generated with Gemini.
 
 ## Deploy
 
+Demo in french : https://politinder.pages.dev/
+Demo in english (google translate) : https://politinder-pages-dev.translate.goog/?_x_tr_sl=fr&_x_tr_tl=en
+
 You need to serve votes.json, index.html and the parsed_am folder
 
 You can use any static hosting service like:
@@ -22,7 +25,7 @@ You can use any static hosting service like:
 - GitHub Pages
 - Netlify
 - Vercel
-- Hackclub's nest
+- ✨ Hackclub's Nest ✨
 - Any web server (Apache, Nginx, etc.)
 
 ## Acknowledgement
