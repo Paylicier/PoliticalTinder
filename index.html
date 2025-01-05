@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PoliticalTinder</title>
+    <title>PolitiTinder</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
     <style>
@@ -65,6 +65,10 @@
       .card-enter {
         animation: cardEnter 0.3s ease;
       }
+      #alignment-indicator {
+        transition: left 0.3s ease;
+        transform: translateX(-50%); /* Center the indicator */
+      }
 
       @keyframes cardEnter {
         0% {
@@ -75,6 +79,36 @@
           transform: translateY(0) scale(1);
           opacity: 1;
         }
+      }
+
+      .popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        max-width: 600px;
+        max-height: 80vh; /* Limit the height to 80% of the viewport height */
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        overflow-y: auto; /* Enable vertical scrolling */
+      }
+
+      .popup-content {
+        padding: 10px; /* Add padding inside the popup content */
+      }
+
+      .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
       }
     </style>
   </head>
@@ -116,10 +150,25 @@
     </div>
 
     <div id="score-container" class="mt-8 text-center hidden">
-      <h2 class="text-xl font-bold dark:text-white">
-        Your Political Alignment
-      </h2>
-      <p id="score" class="text-lg dark:text-gray-300"></p>
+      <h2 class="text-xl font-bold dark:text-white">Votre Alignement Politique</h2>
+      <div class="w-full md:w-[600px] lg:w-[800px] mx-auto mt-4 px-4 transition-all duration-300 ease-in-out">
+        <div class="flex justify-between text-sm text-gray-600 dark:text-gray-400 mb-2">
+          <span>Extrême-Gauche</span>
+          <span>Extrême-Droite</span>
+        </div>
+        <div class="relative">
+          <div class="relative h-6 bg-gradient-to-r from-red-500 to-blue-500 rounded-full transition-all duration-300 ease-in-out">
+            <div class="absolute left-1/4 h-6 w-0.5 bg-white/30"></div>
+            <div class="absolute right-1/4 h-6 w-0.5 bg-white/30"></div>
+            <div id="alignment-indicator" class="absolute top-0 h-6 w-1.5 bg-white rounded-full shadow-md transition-all duration-300 ease-in-out"></div>
+          </div>
+          <div class="relative mt-1 h-6">
+            <div class="absolute left-1/4 -translate-x-1/2 text-sm text-gray-600 dark:text-gray-400">Gauche</div>
+            <div class="absolute right-1/4 translate-x-1/2 text-sm text-gray-600 dark:text-gray-400">Droite</div>
+          </div>
+        </div>
+      </div>
+      <p id="score" class="text-lg dark:text-gray-300 mt-2 hidden"></p>
     </div>
 
     <div
@@ -133,10 +182,25 @@
           <ul id="for-list" class="space-y-2"></ul>
         </div>
         <div>
-          <h3 class="text-lg font-bold dark:text-white mb-2">👎 Voted Against</h3>
+          <h3 class="text-lg font-bold dark:text-white mb-2">
+            👎 Voted Against
+          </h3>
           <ul id="against-list" class="space-y-2"></ul>
         </div>
       </div>
+    </div>
+
+    <!-- Popup for Amendment Content -->
+    <div id="popup-overlay" class="popup-overlay hidden"></div>
+    <div id="popup" class="popup hidden dark:bg-gray-700 dark:text-white">
+      <h2 id="popup-title" class="text-xl font-bold mb-4"></h2>
+      <div id="popup-content" class="text-sm popup-content"></div>
+      <button
+        id="close-popup"
+        class="mt-4 p-2 bg-gray-500 text-white rounded hover:bg-gray-600"
+      >
+        Close
+      </button>
     </div>
 
     <script>
@@ -152,6 +216,11 @@
       const resultsContainer = document.getElementById("results-container");
       const forList = document.getElementById("for-list");
       const againstList = document.getElementById("against-list");
+      const popupOverlay = document.getElementById("popup-overlay");
+      const popup = document.getElementById("popup");
+      const popupTitle = document.getElementById("popup-title");
+      const popupContent = document.getElementById("popup-content");
+      const closePopup = document.getElementById("close-popup");
 
       let userVotes = [];
       let userPoliticalAlignment = 0;
@@ -165,7 +234,7 @@
       }
 
       function startGame() {
-        currentChoices = getRandomCards(10); // Start with 10 random cards
+        currentChoices = getRandomCards(10);
         renderCards();
       }
 
@@ -175,7 +244,6 @@
       }
 
       function getAdaptedCards() {
-        // Filter cards that are closer to the user's political alignment
         return allChoices
           .filter(
             (choice) =>
@@ -187,30 +255,122 @@
               Math.abs(a.forPoliticalAlignment - userPoliticalAlignment) -
               Math.abs(b.forPoliticalAlignment - userPoliticalAlignment)
           )
-          .slice(0, 10); // Return top 10 relevant cards
+          .slice(0, 10);
       }
 
       function createCard(choice) {
         const card = document.createElement("div");
+        const amendementMatch = choice.name.match(
+          /l'amendement n° (\d+) de (.+?)(?= et | (avant|après) l'article)/i
+        );
+        const author = amendementMatch ? amendementMatch[2] : "Non spécifié";
+
+        const categories = [
+          {
+            name: "impôts",
+            emoji: "🧾",
+            color:
+              "bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100",
+          },
+          {
+            name: "retraite",
+            emoji: "👴",
+            color:
+              "bg-purple-100 text-purple-800 dark:bg-purple-800 dark:text-purple-100",
+          },
+          {
+            name: "santé",
+            emoji: "⚕️",
+            color:
+              "bg-green-100 text-green-800 dark:bg-green-800 dark:text-green-100",
+          },
+          {
+            name: "social",
+            emoji: "🫂",
+            color:
+              "bg-pink-100 text-pink-800 dark:bg-pink-800 dark:text-pink-100",
+          },
+          {
+            name: "emploi",
+            emoji: "💼",
+            color:
+              "bg-yellow-100 text-yellow-800 dark:bg-yellow-800 dark:text-yellow-100",
+          },
+          {
+            name: "logement",
+            emoji: "🏠",
+            color:
+              "bg-indigo-100 text-indigo-800 dark:bg-indigo-800 dark:text-indigo-100",
+          },
+          {
+            name: "environnement",
+            emoji: "🌿",
+            color:
+              "bg-teal-100 text-teal-800 dark:bg-teal-800 dark:text-teal-100",
+          },
+          {
+            name: "finance",
+            emoji: "💰",
+            color:
+              "bg-orange-100 text-orange-800 dark:bg-orange-800 dark:text-orange-100",
+          },
+        ];
+
+        const category = categories[choice.category] || {
+          name: "autre",
+          emoji: "❓",
+          color:
+            "bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-100",
+        };
+
+        const statusTag =
+          choice.status === "adopté"
+            ? `<span class="text-sm bg-green-100 text-green-800 dark:bg-green-800 dark:text-green-100 px-2 py-1 rounded">Adopté</span>`
+            : `<span class="text-sm bg-red-100 text-red-800 dark:bg-red-800 dark:text-red-100 px-2 py-1 rounded">Rejeté</span>`;
+
+        const imageUrl = `https://emojicdn.elk.sh/${category.emoji}`;
+
         card.className =
           "card absolute w-full h-full bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden flex flex-col";
         card.innerHTML = `
-    <div class="p-3 flex-shrink-0">
-      <h2 class="text-lg font-bold dark:text-white">${choice.title}</h2>
-      <p class="text-sm text-gray-500 dark:text-gray-400 truncate">${choice.dateScrutin} • ${choice.totalVoters} voters</p>
-    </div>
-    <div class="p-3 overflow-y-auto flex-grow">
-      <p class="text-sm text-gray-600 dark:text-gray-300">${choice.summary}</p>
-    </div>
-    <div class="overlay like"></div>
-    <div class="overlay dislike"></div>
-  `;
+        <div class="relative h-1/2 flex items-center justify-center bg-gray-200 dark:bg-gray-600">
+            <div class="w-full h-full flex items-center justify-center">
+                <img src="${imageUrl}" alt="${
+          category.name
+        }" onerror="this.src='https://emojicdn.elk.sh/✨'" class="object-contain w-full h-full p-5" />
+            </div>
+            <div class="absolute bottom-2 left-2 flex flex-wrap gap-2">
+                <span class="text-sm ${category.color} px-2 py-1 rounded">${
+          category.emoji
+        } ${category.name}</span>
+                ${statusTag}
+            </div>
+        </div>
+        <div class="relative p-4 flex flex-col h-1/2">
+            <h2 class="text-xl font-bold text-gray-800 dark:text-white mb-2">${
+              choice.title
+            }</h2>
+            <p class="text-sm text-gray-600 dark:text-gray-300 mb-4 overflow-hidden overflow-ellipsis" style="display: -webkit-box; -webkit-line-clamp: 8; -webkit-box-orient: vertical;">${
+              choice.summary
+            }</p>
+            <div class="mt-auto">
+                <p class="text-sm text-gray-500 dark:text-gray-400 truncate">${
+                  choice.dateScrutin
+                } • ${choice.totalVoters} votes</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Proposé par: ${
+                  author || "Non spécifié"
+                }</p>
+            </div>
+        </div>
+        <div class="overlay like"></div>
+        <div class="overlay dislike"></div>
+    `;
+        card.dataset.amendmentId = choice.amendement;
         return card;
       }
-
       function renderCards() {
         if (currentIndex >= currentChoices.length) {
-          currentChoices = getAdaptedCards(); // Adapt cards based on user's alignment
+          currentChoices = getAdaptedCards();
           currentIndex = 0;
         }
 
@@ -230,13 +390,14 @@
           }
           card.style.zIndex = cardsToShow.length - index;
           cardContainer.appendChild(card);
+          addDragListeners(card);
         });
-        addDragListeners(cardContainer.querySelector(".card"));
       }
 
       function addDragListeners(card) {
         let isDragging = false;
         let startX, startY, offsetX, offsetY;
+        let dragDistance = 0;
 
         card.addEventListener("mousedown", startDrag);
         card.addEventListener("touchstart", startDrag, { passive: true });
@@ -244,6 +405,7 @@
         function startDrag(e) {
           if (isAnimating) return;
           isDragging = true;
+          dragDistance = 0;
           card.classList.add("dragging");
           startX = e.clientX || e.touches[0].clientX;
           startY = e.clientY || e.touches[0].clientY;
@@ -257,6 +419,7 @@
           if (!isDragging) return;
           offsetX = (e.clientX || e.touches[0].clientX) - startX;
           offsetY = (e.clientY || e.touches[0].clientY) - startY;
+          dragDistance = Math.sqrt(offsetX * offsetX + offsetY * offsetY);
           const rotate = offsetX * 0.1;
           card.style.transform = `translate(${offsetX}px, ${offsetY}px) rotate(${rotate}deg)`;
 
@@ -299,8 +462,36 @@
           card.querySelector(".overlay.like").style.opacity = 0;
           card.querySelector(".overlay.dislike").style.opacity = 0;
         }
-      }
 
+        card.addEventListener("click", async (e) => {
+          if (dragDistance > 10) return;
+          const amendmentId = card.dataset.amendmentId;
+          const response = await fetch("parsed_am/" + amendmentId);
+          const amendment = await response.json();
+
+          popupTitle.textContent =
+            "Amendement " +
+            amendment.amendement.identification.numeroLong +
+            (amendment.amendement.loiReference
+              ? " de l'article " +
+                (typeof amendment.amendement.loiReference.divisionCodeLoi ===
+                "string"
+                  ? amendment.amendement.loiReference.divisionCodeLoi +
+                    " du code " +
+                    amendment.amendement.loiReference.codeLoi
+                  : amendment.amendement.loiReference.codeLoi)
+              : "");
+          popupContent.innerHTML = `
+      <h3 class="font-bold mb-2">Exposé Sommaire</h3>
+      <div class="mb-4">${amendment.amendement.corps.contenuAuteur.exposeSommaire}</div>
+      <h3 class="font-bold mb-2">Dispositif</h3>
+      <div class="mb-2">${amendment.amendement.corps.contenuAuteur.dispositif}</div>
+    `;
+
+          popupOverlay.classList.remove("hidden");
+          popup.classList.remove("hidden");
+        });
+      }
       function swipeCard(direction) {
         if (isAnimating) return;
         isAnimating = true;
@@ -338,7 +529,7 @@
             renderCards();
           }
           isAnimating = false;
-        }, 700); // (500 -> animation + 200 -> delay)
+        }, 1000); // (500 -> animation + 500 -> delay)
       }
 
       function calculatePoliticalAlignment() {
@@ -352,7 +543,6 @@
         });
         userPoliticalAlignment = totalAlignment / userVotes.length;
 
-        // Check if the alignment has stabilized
         if (Math.abs(userPoliticalAlignment - lastAlignment) < 0.01) {
           stableCount++;
         } else {
@@ -360,27 +550,32 @@
         }
         lastAlignment = userPoliticalAlignment;
 
+        const alignmentIndicator = document.getElementById(
+          "alignment-indicator"
+        );
+        const alignmentBarWidth = alignmentIndicator.parentElement.offsetWidth;
+        const alignmentPosition =
+          ((userPoliticalAlignment + 1) / 2) * alignmentBarWidth;
+        alignmentIndicator.style.left = `${alignmentPosition}px`;
+
         scoreElement.textContent = userPoliticalAlignment.toFixed(2);
         scoreContainer.classList.remove("hidden");
       }
 
       function endGame() {
-        // Hide the card container and buttons
         cardContainer.classList.add("hidden");
         document.querySelector(".mt-8.flex.space-x-4").classList.add("hidden");
 
-        // Show the score and results container
         scoreContainer.classList.remove("hidden");
         resultsContainer.classList.remove("hidden");
 
-        // Clear previous results
         forList.innerHTML = "";
         againstList.innerHTML = "";
 
-        // Populate the "For" and "Against" lists
         userVotes.forEach((vote) => {
           const listItem = document.createElement("li");
-          listItem.className = "flex items-center justify-between text-sm dark:text-gray-300";
+          listItem.className =
+            "flex items-center justify-between text-sm dark:text-gray-300";
 
           const title = document.createElement("span");
           title.textContent = vote.choice.title;
@@ -389,9 +584,10 @@
           scoreTag.className = `px-2 py-1 rounded-full text-xs font-bold ${
             vote.vote === "for" ? "bg-blue-500" : "bg-red-500"
           } text-white`;
-          scoreTag.textContent = vote.vote === "for"
-            ? vote.choice.forPoliticalAlignment.toFixed(2)
-            : vote.choice.againstPoliticalAlignment.toFixed(2);
+          scoreTag.textContent =
+            vote.vote === "for"
+              ? vote.choice.forPoliticalAlignment.toFixed(2)
+              : vote.choice.againstPoliticalAlignment.toFixed(2);
 
           listItem.appendChild(title);
           listItem.appendChild(scoreTag);
@@ -403,7 +599,7 @@
           }
         });
 
-        // Trigger confetti effect
+        // Confetti !!1!1!1!1!!
         triggerConfetti();
       }
 
@@ -414,6 +610,11 @@
           origin: { y: 0.6 },
         });
       }
+
+      closePopup.addEventListener("click", () => {
+        popupOverlay.classList.add("hidden");
+        popup.classList.add("hidden");
+      });
 
       document
         .getElementById("like-btn")

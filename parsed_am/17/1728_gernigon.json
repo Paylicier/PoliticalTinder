@@ -1,0 +1,176 @@
+{
+  "amendement": {
+    "@xmlns": "http://schemas.assemblee-nationale.fr/referentiel",
+    "uid": "AMANR5L17PO838901B0325P0D1N001728",
+    "chronotag": "1730842575155",
+    "legislature": "17",
+    "identification": {
+      "numeroLong": "1728",
+      "numeroOrdreDepot": "1728",
+      "prefixeOrganeExamen": "AN",
+      "numeroRect": "0"
+    },
+    "examenRef": "EXANR5L17PO838901B0325P0D1",
+    "texteLegislatifRef": "PRJLANR5L17B0325",
+    "triAmendement": "ibaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbji",
+    "cardinaliteAmdtMultiples": "1",
+    "amendementParentRef": {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:nil": "true"
+    },
+    "signataires": {
+      "auteur": {
+        "typeAuteur": "D\u00e9put\u00e9",
+        "gouvernementRef": {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:nil": "true"
+        },
+        "acteurRef": "PA794234",
+        "groupePolitiqueRef": "PO845470",
+        "auteurRapporteurOrganeRef": {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:nil": "true"
+        }
+      },
+      "cosignataires": {
+        "acteurRef": [
+          "PA605782",
+          "PA795350",
+          "PA721458",
+          "PA794278",
+          "PA793992",
+          "PA795278",
+          "PA332228",
+          "PA687214",
+          "PA719032",
+          "PA841339",
+          "PA841431",
+          "PA267780",
+          "PA841833",
+          "PA794470",
+          "PA722070",
+          "PA719778",
+          "PA719052",
+          "PA842125",
+          "PA794426",
+          "PA794838",
+          "PA720230",
+          "PA794518",
+          "PA841013",
+          "PA720908",
+          "PA793398",
+          "PA721844",
+          "PA793572",
+          "PA719528",
+          "PA720552",
+          "PA720138",
+          "PA722336",
+          "PA795026"
+        ]
+      },
+      "suffixe": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:nil": "true"
+      },
+      "libelle": "M.&#160;Gernigon,  M.&#160;Marcangeli, M.&#160;Valletoux, M.&#160;Roseren, M.&#160;Albertini, M.&#160;Alfandari, Mme&#160;Bellamy, M.&#160;Benoit, M.&#160;Berrios, M.&#160;Bouyx, M.&#160;Brard, Mme&#160;Colin-Oesterl&#233;, Mme&#160;Firmin&#160;Le&#160;Bodo, M.&#160;Guerin, Mme&#160;G&#233;rard, M.&#160;Henriet, M.&#160;Jolivet, M.&#160;Kervran, M.&#160;Lam, Mme&#160;Le&#160;H&#233;nanff, M.&#160;Lemaire, Mme&#160;Lise&#160;Magnier, M.&#160;Marle, Mme&#160;Mesnard, Mme&#160;Moutchou, M.&#160;Patrier-Leitus, Mme&#160;Piron, M.&#160;Plassard, M.&#160;Portarrieu, Mme&#160;Rauch, Mme&#160;Saint-Paul, M.&#160;Thi&#233;baut et Mme&#160;Violland"
+    },
+    "pointeurFragmentTexte": {
+      "partieAmendableRef": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:nil": "true"
+      },
+      "division": {
+        "titre": "Article 18",
+        "articleDesignationCourte": "APR\u00c8S ART. 18",
+        "articleDesignation": "APR\u00c8S L'ARTICLE 18, ins\u00e9rer l'article suivant:",
+        "type": "ARTICLE",
+        "avant_A_Apres": "Apr\u00e8s",
+        "divisionRattachee": {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:nil": "true"
+        },
+        "articleAdditionnel": "true",
+        "chapitreAdditionnel": "false",
+        "urlDivisionTexteVise": "/17/textes/0325.asp#D_Article_18"
+      },
+      "amendementStandard": {
+        "alinea": {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:nil": "true"
+        }
+      }
+    },
+    "corps": {
+      "cartoucheInformatif": {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:nil": "true"
+      },
+      "contenuAuteur": {
+        "dispositif": "<p style=\"text-align: justify;\">&#x00C0; la premi&#x00E8;re phrase de l&#x2019;avant-dernier alin&#x00E9;a de l&#x2019;article L.&nbsp;6316&#x2011;1 du code de la sant&#x00E9; publique, les deux occurrences des mots&nbsp;: &#x00AB;&nbsp;de trois&nbsp;&#x00BB; sont remplac&#x00E9;es par les mots&nbsp;: &#x00AB;&nbsp;d&#x2019;un&nbsp;&#x00BB;.</p>",
+        "avantAppel": {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:nil": "true"
+        },
+        "exposeSommaire": "<p>Le montant des&nbsp;d&#x00E9;penses de la S&#x00E9;curit&#x00E9; sociale li&#x00E9;e&nbsp;aux arr&#x00EA;ts de travail&nbsp;d&#x00E9;passe les 15 milliards d&#x2019;euros par an, dont une grande partie est li&#x00E9;e aux arr&#x00EA;ts de courte dur&#x00E9;e. En effet, les arr&#x00EA;ts de moins de sept jours repr&#x00E9;sentent 40&nbsp;% des indemnit&#x00E9;s journali&#x00E8;res vers&#x00E9;es, un montant qui ne cesse de cro&#x00EE;tre. Limiter les arr&#x00EA;ts de travail en t&#x00E9;l&#x00E9;consultation &#x00E0; un seul jour permettrait de mieux contr&#x00F4;ler ces co&#x00FB;ts en r&#x00E9;duisant le risque de prescriptions excessives ou injustifi&#x00E9;es. Cela inciterait les patients &#x00E0; consulter en pr&#x00E9;sentiel pour des arr&#x00EA;ts plus longs, garantissant ainsi un diagnostic plus rigoureux et une meilleure ad&#x00E9;quation des arr&#x00EA;ts aux r&#x00E9;els besoins m&#x00E9;dicaux. Une telle mesure pourrait donc participer efficacement &#x00E0; la ma&#x00EE;trise des d&#x00E9;penses de sant&#x00E9;, en ciblant sp&#x00E9;cifiquement les arr&#x00EA;ts de courte dur&#x00E9;e qui p&#x00E8;sent lourdement sur le budget de l&#x2019;assurance maladie.</p><p>Cet amendement vise ainsi &#x00E0; limiter&nbsp;la dur&#x00E9;e maximale des arr&#x00EA;ts de travail prescrits ou renouvel&#x00E9;s par t&#x00E9;l&#x00E9;m&#x00E9;decine.&nbsp;</p>",
+        "annexeExposeSommaire": {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:nil": "true"
+        }
+      }
+    },
+    "cycleDeVie": {
+      "dateDepot": "2024-10-25",
+      "datePublication": "2024-10-31",
+      "soumisArticle40": "true",
+      "etatDesTraitements": {
+        "etat": { "code": "DI", "libelle": "Discut\u00e9" },
+        "sousEtat": { "code": "DI", "libelle": "Adopt\u00e9" }
+      },
+      "dateSort": "2024-11-05T22:36:03+01:00",
+      "sort": "Adopt\u00e9"
+    },
+    "representations": {
+      "representation": {
+        "nom": "PDF",
+        "typeMime": { "type": "application", "subType": "PDF" },
+        "statutRepresentation": {
+          "verbatim": "true",
+          "canonique": "true",
+          "officielle": "true",
+          "transcription": "false",
+          "enregistrement": "false"
+        },
+        "repSource": {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:nil": "true"
+        },
+        "offset": {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:nil": "true"
+        },
+        "contenu": {
+          "documentURI": "/base/AMANR5L17PO838901B0325P0D1N001728?format=pdf"
+        },
+        "dateDispoRepresentation": {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:nil": "true"
+        }
+      }
+    },
+    "seanceDiscussionRef": "RUANR5L17S2025IDS28622",
+    "article99": "false",
+    "loiReference": {
+      "codeLoi": "c sant\u00e9 publique",
+      "divisionCodeLoi": "L6316-1"
+    },
+    "discussionCommune": {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:nil": "true"
+    },
+    "discussionIdentique": {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:nil": "true"
+    },
+    "accordGouvernementDepotHorsDelai": "Sans objet"
+  }
+}

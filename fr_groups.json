@@ -1,0 +1,93 @@
+[
+    {
+      "uid": "PO845419",
+      "abrev": "SOC",
+      "name": "Socialistes et apparentés",
+      "color": "#F5B4CE",
+      "politicalAlignment": -0.5
+    },
+    {
+      "uid": "PO845454",
+      "abrev": "Dem",
+      "name": "Les Démocrates",
+      "color": "#F07E26",
+      "politicalAlignment": 0
+    },
+    {
+      "uid": "PO845407",
+      "abrev": "EPR",
+      "name": "Ensemble pour la République",
+      "color": "#7B4591",
+      "politicalAlignment": 0
+    },
+    {
+      "uid": "PO840056",
+      "abrev": "NI",
+      "name": "Non inscrit",
+      "color": "#8D949A",
+      "politicalAlignment": null
+    },
+    {
+      "uid": "PO845425",
+      "abrev": "DR",
+      "name": "Droite Républicaine",
+      "color": "#8CB0DC",
+      "politicalAlignment": 0.5
+    },
+    {
+      "uid": "PO847173",
+      "abrev": "UDR",
+      "name": "UDR",
+      "color": "#3367A7",
+      "politicalAlignment": 1
+    },
+    {
+      "uid": "PO845520",
+      "abrev": "AD",
+      "name": "À Droite",
+      "color": "#3367A7",
+      "politicalAlignment": 1
+    },
+    {
+      "uid": "PO845514",
+      "abrev": "GDR",
+      "name": "Gauche Démocrate et Républicaine",
+      "color": "#830E21",
+      "politicalAlignment": -0.5
+    },
+    {
+      "uid": "PO845413",
+      "abrev": "LFI-NFP",
+      "name": "La France insoumise - Nouveau Front Populaire",
+      "color": "#C00D0D",
+      "politicalAlignment": -1
+    },
+    {
+      "uid": "PO845401",
+      "abrev": "RN",
+      "name": "Rassemblement National",
+      "color": "#313567",
+      "politicalAlignment": 1
+    },
+    {
+      "uid": "PO845439",
+      "abrev": "EcoS",
+      "name": "Écologiste et Social",
+      "color": "#77AA79",
+      "politicalAlignment": -0.5
+    },
+    {
+      "uid": "PO845470",
+      "abrev": "HOR",
+      "name": "Horizons & Indépendants",
+      "color": "#B5E2F9",
+      "politicalAlignment": 0.5
+    },
+    {
+      "uid": "PO845485",
+      "abrev": "LIOT",
+      "name": "Libertés, Indépendants, Outre-mer et Territoires",
+      "color": "#FFD96F",
+      "politicalAlignment": 0
+    }
+  ]

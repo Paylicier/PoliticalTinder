@@ -1,0 +1,1892 @@
+[
+  {
+    "uid": "VTANR5L16V281",
+    "dateScrutin": "2022-10-13",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1451 de M. Naegelen après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 293,
+    "forPoliticalAlignment": 0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/1451_naegelen.json"
+  },
+  {
+    "uid": "VTANR5L16V986",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2812 de M. Bernalicis et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 353,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/2812_bernalicis.json"
+  },
+  {
+    "uid": "VTANR5L17V34",
+    "dateScrutin": "2024-10-23",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1794 de Mme Maximi après l'article 3 du projet de loi de finances pour 2025 (première lecture).",
+    "totalVoters": 292,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "17/1794_maximi.json"
+  },
+  {
+    "uid": "VTANR5L16V1051",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3305 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 451,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3305_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V161",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 78 de Mme Louwagie et l'amendement identique suivant avant l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 358,
+    "forPoliticalAlignment": 0.5,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "16/78_louwagie.json"
+  },
+  {
+    "uid": "VTANR5L16V1082",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3489 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 450,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3489_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1063",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3502 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3502_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V258",
+    "dateScrutin": "2024-11-05",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1728 de M. Gernigon après l'article 18 du projet de loi de financement de la sécurité sociale pour 2025 (première lecture).",
+    "totalVoters": 301,
+    "forPoliticalAlignment": 0.5,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/1728_gernigon.json"
+  },
+  {
+    "uid": "VTANR5L16V335",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3209 de M. Vallaud après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 318,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3209_vallaud.json"
+  },
+  {
+    "uid": "VTANR5L16V1077",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3282 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 451,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3282_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1014",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2392 de M. Tavel et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 392,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/2392_tavel.json"
+  },
+  {
+    "uid": "VTANR5L16V1032",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3252 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 448,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3252_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V992",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3103 de Mme Maximi et l'amendement identique suivant après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 370,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3103_maximi.json"
+  },
+  {
+    "uid": "VTANR5L16V1064",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3197 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 457,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3197_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V44",
+    "dateScrutin": "2022-07-20",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 94 de M. Leseul et les amendements identiques suivants après l'article 4 du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première lecture).",
+    "totalVoters": 379,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/94_leseul.json"
+  },
+  {
+    "uid": "VTANR5L16V325",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2657 de M. Philippe Brun après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 315,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/2657_philippebrun.json"
+  },
+  {
+    "uid": "VTANR5L17V521",
+    "dateScrutin": "2024-12-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 19 de M. Philippe Brun après l'article premier du projet de loi spéciale prévue par l'article 45 de la loi organique du 1er août 2001 relative aux lois de finances (première lecture).",
+    "totalVoters": 321,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "17/19_philippebrun.json"
+  },
+  {
+    "uid": "VTANR5L16V37",
+    "dateScrutin": "2022-07-20",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 127 de M. Vallaud et l'amendement identique suivant après l'article 4 du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première lecture).",
+    "totalVoters": 372,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/127_vallaud.json"
+  },
+  {
+    "uid": "VTANR5L16V283",
+    "dateScrutin": "2022-10-13",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3129 de la commission des finances et les amendements identiques suivants après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 293,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3129_la.json"
+  },
+  {
+    "uid": "VTANR5L16V1001",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3132 de Mme Maximi et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 291,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/3132_maximi.json"
+  },
+  {
+    "uid": "VTANR5L17V457",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 869 de M. Alfandari avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 342,
+    "forPoliticalAlignment": 0.25,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/869_alfandari.json"
+  },
+  {
+    "uid": "VTANR5L16V1088",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3293 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 447,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3293_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1061",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3503 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 460,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3503_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1019",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1808 de M. Tavel et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 357,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/1808_tavel.json"
+  },
+  {
+    "uid": "VTANR5L16V1047",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3303 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 457,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3303_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1094",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 329 de M. Breton après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 399,
+    "forPoliticalAlignment": -0.25,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/329_breton.json"
+  },
+  {
+    "uid": "VTANR5L16V1008",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3606 de Mme Amiot et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 327,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/3606_amiot.json"
+  },
+  {
+    "uid": "VTANR5L16V1022",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3178 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 446,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3178_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V156",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 599 de M. Acquaviva avant l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 364,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/599_acquaviva.json"
+  },
+  {
+    "uid": "VTANR5L16V1073",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3494 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 457,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3494_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1068",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3199 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3199_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V334",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1450 de M. Naegelen après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 306,
+    "forPoliticalAlignment": 0.5,
+    "againstPoliticalAlignment": -0.25,
+    "amendement": "16/1450_naegelen.json"
+  },
+  {
+    "uid": "VTANR5L16V1084",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3291 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 452,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3291_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1050",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3194 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3194_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1036",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3296 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 451,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3296_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1067",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3500 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 458,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3500_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V987",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3130 de Mme Maximi et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 297,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3130_maximi.json"
+  },
+  {
+    "uid": "VTANR5L16V38",
+    "dateScrutin": "2022-07-20",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 116 de M. Leseul et les amendements identiques suivants après l'article 4 du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première lecture).",
+    "totalVoters": 367,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/116_leseul.json"
+  },
+  {
+    "uid": "VTANR5L16V1023",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3295 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 451,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3295_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V461",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 870 de M. Alfandari avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 309,
+    "forPoliticalAlignment": 0,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/870_alfandari.json"
+  },
+  {
+    "uid": "VTANR5L16V1075",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3493 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3493_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V948",
+    "dateScrutin": "2023-02-10",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 19661 de M. Ferracci après l'article premier du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 288,
+    "forPoliticalAlignment": 0,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "16/19661_ferracci.json"
+  },
+  {
+    "uid": "VTANR5L16V1065",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3501 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 457,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3501_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1093",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1537 de M. Cordier et l'amendement identique suivant après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 404,
+    "forPoliticalAlignment": 0,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/1537_cordier.json"
+  },
+  {
+    "uid": "VTANR5L16V342",
+    "dateScrutin": "2022-10-18",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1956 de M. Echaniz après l'article 4 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 299,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/1956_echaniz.json"
+  },
+  {
+    "uid": "VTANR5L16V991",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 5302 de Mme Trouvé et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 352,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/5302_trouv.json"
+  },
+  {
+    "uid": "VTANR5L16V270",
+    "dateScrutin": "2022-10-12",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3126 de la commission des finances et les amendements identiques suivants après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 296,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3126_la.json"
+  },
+  {
+    "uid": "VTANR5L16V336",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3210 de M. Vallaud après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 323,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3210_vallaud.json"
+  },
+  {
+    "uid": "VTANR5L16V1054",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3267 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 455,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3267_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1009",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 6655 de M. Laisney après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 362,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/6655_laisney.json"
+  },
+  {
+    "uid": "VTANR5L16V167",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 817 de M. Maudet après l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 366,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/817_maudet.json"
+  },
+  {
+    "uid": "VTANR5L17V467",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 875 de M. Alfandari avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 299,
+    "forPoliticalAlignment": 0.25,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/875_alfandari.json"
+  },
+  {
+    "uid": "VTANR5L17V213",
+    "dateScrutin": "2024-10-31",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 5 de M. Ménagé après l'article 2 de la proposition de loi visant à restaurer un système de retraite plus juste en annulant les dernières réformes portant sur l’âge de départ et le nombre d’annuités (première lecture).",
+    "totalVoters": 346,
+    "forPoliticalAlignment": 0.75,
+    "againstPoliticalAlignment": 0,
+    "amendement": "17/5_mnag.json"
+  },
+  {
+    "uid": "VTANR5L16V173",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 192 de M. Castellani après l'article 15 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 345,
+    "forPoliticalAlignment": 1,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/192_castellani.json"
+  },
+  {
+    "uid": "VTANR5L16V171",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 632 de M. Jean-Philippe Tanguy après l'article 10 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 341,
+    "forPoliticalAlignment": 1,
+    "againstPoliticalAlignment": -0.25,
+    "amendement": "16/632_jeanphilippetanguy.json"
+  },
+  {
+    "uid": "VTANR5L16V999",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3114 de Mme Maximi et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 293,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/3114_maximi.json"
+  },
+  {
+    "uid": "VTANR5L16V160",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 76 de Mme Louwagie et l'amendement identique suivant avant l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 367,
+    "forPoliticalAlignment": 0.5,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "16/76_louwagie.json"
+  },
+  {
+    "uid": "VTANR5L16V1016",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 19574 de M. Castellani après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 346,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/19574_castellani.json"
+  },
+  {
+    "uid": "VTANR5L16V1083",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3483 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 457,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3483_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V466",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 878 de M. Gernigon avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 316,
+    "forPoliticalAlignment": 0.25,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/878_gernigon.json"
+  },
+  {
+    "uid": "VTANR5L17V35",
+    "dateScrutin": "2024-10-23",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1837 de M. Coquerel après l'article 3 du projet de loi de finances pour 2025 (première lecture).",
+    "totalVoters": 294,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "17/1837_coquerel.json"
+  },
+  {
+    "uid": "VTANR5L16V168",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 819 de M. Maudet après l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 373,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/819_maudet.json"
+  },
+  {
+    "uid": "VTANR5L16V1056",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3268 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 457,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3268_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V977",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 636 de M. Nadeau après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 369,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/636_nadeau.json"
+  },
+  {
+    "uid": "VTANR5L16V1087",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3481 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 454,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3481_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V46",
+    "dateScrutin": "2022-07-20",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 322 de Mme Le Pen après l'article 5 du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première lecture).",
+    "totalVoters": 417,
+    "forPoliticalAlignment": 1,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/322_lepen.json"
+  },
+  {
+    "uid": "VTANR5L16V1059",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3504 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 457,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3504_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V463",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 872 de M. Gernigon avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 291,
+    "forPoliticalAlignment": 0,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/872_gernigon.json"
+  },
+  {
+    "uid": "VTANR5L16V282",
+    "dateScrutin": "2022-10-13",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1452 de M. Naegelen après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 288,
+    "forPoliticalAlignment": 0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/1452_naegelen.json"
+  },
+  {
+    "uid": "VTANR5L16V976",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1524 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 326,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/1524_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V459",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 879 de Mme Colin-Osterlé avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 340,
+    "forPoliticalAlignment": 0,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/879_colinosterl.json"
+  },
+  {
+    "uid": "VTANR5L16V1040",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3189 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 454,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3189_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1026",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3180 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 450,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3180_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1085",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3482 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3482_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V462",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 871 de Mme Colin-Osterlé avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 305,
+    "forPoliticalAlignment": 0,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/871_colinosterl.json"
+  },
+  {
+    "uid": "VTANR5L17V458",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 883 de M. Alfandari avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 312,
+    "forPoliticalAlignment": 0.25,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/883_alfandari.json"
+  },
+  {
+    "uid": "VTANR5L16V974",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1523 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 365,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/1523_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1025",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3184 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 452,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3184_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1079",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3283 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 453,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3283_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L17V520",
+    "dateScrutin": "2024-12-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 6 de M. Jean-Philippe Tanguy après l'article premier du projet de loi spéciale prévue par l'article 45 de la loi organique du 1er août 2001 relative aux lois de finances (première lecture).",
+    "totalVoters": 320,
+    "forPoliticalAlignment": 1,
+    "againstPoliticalAlignment": 0,
+    "amendement": "17/6_jeanphilippetanguy.json"
+  },
+  {
+    "uid": "VTANR5L16V40",
+    "dateScrutin": "2022-07-20",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 943 de M. Ruffin après l'article 4 du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première lecture).",
+    "totalVoters": 373,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/943_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1057",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3195 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 453,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3195_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1048",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3193 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 458,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3193_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V209",
+    "dateScrutin": "2022-10-05",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 388 de M. Da Silva et les amendements identiques suivants après l'article premier du projet de loi portant mesures d'urgence relatives au fonctionnement du marché du travail en vue du plein emploi (première lecture).",
+    "totalVoters": 290,
+    "forPoliticalAlignment": 0.25,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "16/388_dasilva.json"
+  },
+  {
+    "uid": "VTANR5L16V1042",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3190 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 451,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3190_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V170",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 669 de M. Jean-Pierre Vigier après l'article 10 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 373,
+    "forPoliticalAlignment": 0.75,
+    "againstPoliticalAlignment": -0.25,
+    "amendement": "16/669_jeanpierrevigier.json"
+  },
+  {
+    "uid": "VTANR5L16V1028",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3181 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 451,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3181_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1038",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3188 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 453,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3188_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1015",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 5754 de M. Prud'homme après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 387,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/5754_prudhomme.json"
+  },
+  {
+    "uid": "VTANR5L16V1035",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3187 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 450,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3187_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L17V33",
+    "dateScrutin": "2024-10-23",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1786 de M. Le Coq après l'article 3 du projet de loi de finances pour 2025 (première lecture).",
+    "totalVoters": 285,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "17/1786_lecoq.json"
+  },
+  {
+    "uid": "VTANR5L16V166",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 553 de Mme Dufour après l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 339,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/553_dufour.json"
+  },
+  {
+    "uid": "VTANR5L16V1037",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3257 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 453,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3257_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1055",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3506 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 459,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3506_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1062",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3196 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 459,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3196_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1030",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3182 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 451,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3182_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1017",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1659 de M. Tavel et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 312,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/1659_tavel.json"
+  },
+  {
+    "uid": "VTANR5L17V216",
+    "dateScrutin": "2024-10-31",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 7 de M. Dive après l'article 2 octies de la proposition de loi visant à restaurer un système de retraite plus juste en annulant les dernières réformes portant sur l’âge de départ et le nombre d’annuités (première lecture).",
+    "totalVoters": 322,
+    "forPoliticalAlignment": 0,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "17/7_dive.json"
+  },
+  {
+    "uid": "VTANR5L16V323",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1760 de M. Potier et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 315,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/1760_potier.json"
+  },
+  {
+    "uid": "VTANR5L16V994",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 10731 de M. Coulomme après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 369,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/10731_coulomme.json"
+  },
+  {
+    "uid": "VTANR5L16V1049",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3304 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 457,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3304_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V261",
+    "dateScrutin": "2024-11-05",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 230 de M. Guedj après l'article 18 du projet de loi de financement de la sécurité sociale pour 2025 (première lecture).",
+    "totalVoters": 311,
+    "forPoliticalAlignment": -0.25,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "17/230_guedj.json"
+  },
+  {
+    "uid": "VTANR5L16V326",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1039 de M. Sansu après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 312,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/1039_sansu.json"
+  },
+  {
+    "uid": "VTANR5L16V1072",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3279 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3279_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1058",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3269 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 455,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3269_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V176",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 652 de M. Jean-Philippe Tanguy après l'article 10 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 323,
+    "forPoliticalAlignment": 1,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/652_jeanphilippetanguy.json"
+  },
+  {
+    "uid": "VTANR5L16V995",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 4508 de Mme Etienne après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 366,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/4508_etienne.json"
+  },
+  {
+    "uid": "VTANR5L16V1070",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3200 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 453,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3200_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1074",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3280 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 455,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3280_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1004",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 4592 de Mme Etienne et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 364,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/4592_etienne.json"
+  },
+  {
+    "uid": "VTANR5L16V1046",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3192 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 450,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3192_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1081",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3284 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 452,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3284_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1066",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3198 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 459,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3198_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1052",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3266 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 458,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3266_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1010",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3451 de Mme Maximi et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 341,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3451_maximi.json"
+  },
+  {
+    "uid": "VTANR5L16V1092",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 16608 de M. Jean-Philippe Tanguy après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 317,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/16608_jeanphilippetanguy.json"
+  },
+  {
+    "uid": "VTANR5L16V973",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1513 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 410,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/1513_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V464",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 884 de M. Gernigon avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 291,
+    "forPoliticalAlignment": 0.25,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/884_gernigon.json"
+  },
+  {
+    "uid": "VTANR5L16V162",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 790 de M. Meizonnet avant l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 287,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/790_meizonnet.json"
+  },
+  {
+    "uid": "VTANR5L16V172",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 635 de M. Jean-Philippe Tanguy après l'article 10 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 334,
+    "forPoliticalAlignment": 0.25,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/635_jeanphilippetanguy.json"
+  },
+  {
+    "uid": "VTANR5L16V324",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1744 de Mme Leduc et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 304,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/1744_leduc.json"
+  },
+  {
+    "uid": "VTANR5L16V1029",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3249 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 452,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3249_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1043",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3301 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 451,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3301_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V42",
+    "dateScrutin": "2022-07-20",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 938 de M. Ruffin après l'article 4 du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première lecture).",
+    "totalVoters": 377,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/938_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V996",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 6600 de M. Clouet après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 361,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/6600_clouet.json"
+  },
+  {
+    "uid": "VTANR5L16V1091",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3479 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 454,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3479_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V41",
+    "dateScrutin": "2022-07-20",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 756 de M. Ruffin après l'article 4 du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première lecture).",
+    "totalVoters": 372,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/756_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V465",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 885 de Mme Colin-Osterlé avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 312,
+    "forPoliticalAlignment": 0,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/885_colinosterl.json"
+  },
+  {
+    "uid": "VTANR5L16V1078",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3491 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 455,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3491_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V284",
+    "dateScrutin": "2022-10-13",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1122 de M. Le Fur après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 283,
+    "forPoliticalAlignment": 0,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/1122_lefur.json"
+  },
+  {
+    "uid": "VTANR5L17V263",
+    "dateScrutin": "2024-11-05",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2210 de Mme Bergé après l'article 18 du projet de loi de financement de la sécurité sociale pour 2025 (première lecture).",
+    "totalVoters": 287,
+    "forPoliticalAlignment": 0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "17/2210_berg.json"
+  },
+  {
+    "uid": "VTANR5L16V997",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 6642 de Mme Trouvé après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 369,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/6642_trouv.json"
+  },
+  {
+    "uid": "VTANR5L16V1814",
+    "dateScrutin": "2023-06-14",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 167 de M. Kervran après l'article 2 de la proposition de loi visant à améliorer l'accès aux soins par l'engagement territorial des professionnels (première lecture).",
+    "totalVoters": 286,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/167_kervran.json"
+  },
+  {
+    "uid": "VTANR5L16V985",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 16634 de M. Jean-Philippe Tanguy après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 315,
+    "forPoliticalAlignment": 1,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/16634_jeanphilippetanguy.json"
+  },
+  {
+    "uid": "VTANR5L16V984",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 19879 de M. Bazin après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 388,
+    "forPoliticalAlignment": 0.5,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "16/19879_bazin.json"
+  },
+  {
+    "uid": "VTANR5L16V1080",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 6519 de M. Clouet et l'amendement identique suivant après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 452,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/6519_clouet.json"
+  },
+  {
+    "uid": "VTANR5L16V332",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1834 de M. Coquerel et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 332,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/1834_coquerel.json"
+  },
+  {
+    "uid": "VTANR5L16V998",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 4695 de Mme Etienne après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 324,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/4695_etienne.json"
+  },
+  {
+    "uid": "VTANR5L16V983",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 465 de Mme Ménard et l'amendement identique suivant après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 313,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/465_mnard.json"
+  },
+  {
+    "uid": "VTANR5L16V158",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 402 de M. Molac avant l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 366,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/402_molac.json"
+  },
+  {
+    "uid": "VTANR5L16V1031",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3183 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 457,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3183_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1000",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 5626 de Mme Panot et l'amendement identique suivant après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 290,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/5626_panot.json"
+  },
+  {
+    "uid": "VTANR5L16V271",
+    "dateScrutin": "2022-10-12",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2238 de M. Acquaviva après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 281,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/2238_acquaviva.json"
+  },
+  {
+    "uid": "VTANR5L16V333",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3054 de M. Colombani après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 322,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3054_colombani.json"
+  },
+  {
+    "uid": "VTANR5L16V993",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 4506 de Mme Etienne après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 367,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/4506_etienne.json"
+  },
+  {
+    "uid": "VTANR5L17V182",
+    "dateScrutin": "2024-10-29",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 146 de M. Vallaud et les amendements identiques suivants après l'article 3 du projet de loi de financement de la sécurité sociale pour 2025 (première lecture).",
+    "totalVoters": 416,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "17/146_vallaud.json"
+  },
+  {
+    "uid": "VTANR5L16V174",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 693 de M. Jean-Pierre Vigier après l'article 10 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 363,
+    "forPoliticalAlignment": -0.25,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/693_jeanpierrevigier.json"
+  },
+  {
+    "uid": "VTANR5L16V1041",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3300 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 455,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3300_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1011",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3452 de Mme Maximi et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 336,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3452_maximi.json"
+  },
+  {
+    "uid": "VTANR5L16V1089",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3480 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 447,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3480_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V978",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 637 de M. Panifous après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 361,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/637_panifous.json"
+  },
+  {
+    "uid": "VTANR5L16V43",
+    "dateScrutin": "2022-07-20",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 844 de Mme Guetté après l'article 4 du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première lecture).",
+    "totalVoters": 382,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/844_guett.json"
+  },
+  {
+    "uid": "VTANR5L17V522",
+    "dateScrutin": "2024-12-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 29 de M. Delautrette après l'article premier du projet de loi spéciale prévue par l'article 45 de la loi organique du 1er août 2001 relative aux lois de finances (première lecture).",
+    "totalVoters": 370,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "17/29_delautrette.json"
+  },
+  {
+    "uid": "VTANR5L16V1034",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 6491 de M. Clouet et l'amendement identique suivant après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 449,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/6491_clouet.json"
+  },
+  {
+    "uid": "VTANR5L16V269",
+    "dateScrutin": "2022-10-12",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3486 de M. Mattei après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 335,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3486_mattei.json"
+  },
+  {
+    "uid": "VTANR5L16V159",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 403 de M. Molac avant l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 389,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/403_molac.json"
+  },
+  {
+    "uid": "VTANR5L16V979",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2811 de M. Bernalicis et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 360,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/2811_bernalicis.json"
+  },
+  {
+    "uid": "VTANR5L16V169",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 279 de M. Marleix après l'article 10 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 434,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/279_marleix.json"
+  },
+  {
+    "uid": "VTANR5L16V1060",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3270 de M. ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3270_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1027",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3185 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 454,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3185_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1003",
+    "dateScrutin": "2023-02-16",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 20118 de M. Clouet après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 357,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/20118_clouet.json"
+  },
+  {
+    "uid": "VTANR5L16V1039",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3299 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 458,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3299_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V259",
+    "dateScrutin": "2024-11-05",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2179 de Mme Gérard après l'article 18 du projet de loi de financement de la sécurité sociale pour 2025 (première lecture).",
+    "totalVoters": 305,
+    "forPoliticalAlignment": 0.75,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/2179_grard.json"
+  },
+  {
+    "uid": "VTANR5L16V982",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 16464 de Mme Tabarot après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 324,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/16464_tabarot.json"
+  },
+  {
+    "uid": "VTANR5L16V1033",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3186 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 452,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3186_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V322",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2451 de Mme Sas après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 315,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/2451_sas.json"
+  },
+  {
+    "uid": "VTANR5L16V1069",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3499 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3499_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1044",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3191 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 453,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3191_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L16V1095",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2808 de M. Bernalicis et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 409,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/2808_bernalicis.json"
+  },
+  {
+    "uid": "VTANR5L16V1024",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3179 de Mme Manon Meunier et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 451,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3179_manonmeunier.json"
+  },
+  {
+    "uid": "VTANR5L17V262",
+    "dateScrutin": "2024-11-05",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2159 de Mme Rist après l'article 18 du projet de loi de financement de la sécurité sociale pour 2025 (première lecture).",
+    "totalVoters": 300,
+    "forPoliticalAlignment": 0.75,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/2159_rist.json"
+  },
+  {
+    "uid": "VTANR5L16V1045",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3302 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3302_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L17V460",
+    "dateScrutin": "2024-11-28",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3 de M. Sitzenstuhl avant l'article premier de la proposition de loi d'abrogation de la retraite à 64 ans (première lecture).",
+    "totalVoters": 349,
+    "forPoliticalAlignment": 0.25,
+    "againstPoliticalAlignment": -0.5,
+    "amendement": "17/3_sitzenstuhl.json"
+  },
+  {
+    "uid": "VTANR5L16V1090",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3294 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3294_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1053",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3509 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3509_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V1096",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2809 de M. Bernalicis et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 461,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/2809_bernalicis.json"
+  },
+  {
+    "uid": "VTANR5L16V341",
+    "dateScrutin": "2022-10-18",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2012 de M. Echaniz après l'article 4 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 299,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/2012_echaniz.json"
+  },
+  {
+    "uid": "VTANR5L16V268",
+    "dateScrutin": "2022-10-12",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3123 de la commission des finances et les amendements identiques suivants après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 330,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3123_la.json"
+  },
+  {
+    "uid": "VTANR5L16V1812",
+    "dateScrutin": "2023-06-14",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1 de M. Garot et les amendements identiques suivants après l'article 2 de la proposition de loi visant à améliorer l'accès aux soins par l'engagement territorial des professionnels (première lecture).",
+    "totalVoters": 304,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/1_garot.json"
+  },
+  {
+    "uid": "VTANR5L16V76",
+    "dateScrutin": "2022-07-21",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 425 de M. Bazin après l'article 18 du projet de loi portant mesures d'urgence pour la protection du pouvoir d'achat (première lecture).",
+    "totalVoters": 305,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/425_bazin.json"
+  },
+  {
+    "uid": "VTANR5L16V1071",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3495 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 456,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3495_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V981",
+    "dateScrutin": "2023-02-15",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3129 de Mme Maximi et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 332,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3129_maximi.json"
+  },
+  {
+    "uid": "VTANR5L16V286",
+    "dateScrutin": "2022-10-13",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2018 de Mme Arrighi et les amendements identiques suivants après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 295,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/2018_arrighi.json"
+  },
+  {
+    "uid": "VTANR5L16V327",
+    "dateScrutin": "2022-10-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 2467 de M. Jean-Philippe Tanguy après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 298,
+    "forPoliticalAlignment": 1,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/2467_jeanphilippetanguy.json"
+  },
+  {
+    "uid": "VTANR5L16V274",
+    "dateScrutin": "2022-10-13",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3127 de la commission des finances et l'amendement identique suivant après l'article 3 du projet de loi de finances pour 2023 (première lecture).",
+    "totalVoters": 293,
+    "forPoliticalAlignment": -0.25,
+    "againstPoliticalAlignment": 0.25,
+    "amendement": "16/3127_la.json"
+  },
+  {
+    "uid": "VTANR5L16V1076",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 3281 de M. Ruffin et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 453,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/3281_ruffin.json"
+  },
+  {
+    "uid": "VTANR5L16V157",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 810 de M. Molac avant l'article 9 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 353,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0.5,
+    "amendement": "16/810_molac.json"
+  },
+  {
+    "uid": "VTANR5L16V175",
+    "dateScrutin": "2022-07-26",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 633 de M. Jean-Philippe Tanguy après l'article 10 du projet de loi de finances rectificative pour 2022 (première lecture).",
+    "totalVoters": 337,
+    "forPoliticalAlignment": 1,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/633_jeanphilippetanguy.json"
+  },
+  {
+    "uid": "VTANR5L16V1086",
+    "dateScrutin": "2023-02-17",
+    "typeVote": "scrutin public ordinaire",
+    "name": "l'amendement n° 1646 de M. Tavel et les amendements identiques suivants après l'article 2 du projet de loi de financement rectificative de la sécurité sociale pour 2023 (première lecture).",
+    "totalVoters": 454,
+    "forPoliticalAlignment": -0.5,
+    "againstPoliticalAlignment": 0,
+    "amendement": "16/1646_tavel.json"
+  }
+]

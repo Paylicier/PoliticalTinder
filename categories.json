@@ -1,0 +1,12 @@
+{
+    "categories": [
+        {"name": "impôts", "emoji": "🧾"},
+        {"name": "retraite", "emoji": "👴"},
+        {"name": "santé", "emoji": "⚕️"},
+        {"name": "social", "emoji": "🫂"},
+        {"name": "emploi", "emoji": "💼"},
+        {"name": "logement", "emoji": "🏠"},
+        {"name": "environnement", "emoji": "🌿"},
+        {"name": "finance", "emoji": "💰"}
+    ]
+}
