@@ -175,15 +175,15 @@
       id="results-container"
       class="hidden w-full max-w-4xl mt-8 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg"
     >
-      <h2 class="text-xl font-bold dark:text-white mb-4">Your Votes</h2>
+      <h2 class="text-xl font-bold dark:text-white mb-4">Vos votes</h2>
       <div class="grid grid-cols-2 gap-4">
         <div>
-          <h3 class="text-lg font-bold dark:text-white mb-2">👍 Voted For</h3>
+          <h3 class="text-lg font-bold dark:text-white mb-2">👍 Pour</h3>
           <ul id="for-list" class="space-y-2"></ul>
         </div>
         <div>
           <h3 class="text-lg font-bold dark:text-white mb-2">
-            👎 Voted Against
+            👎 Contre
           </h3>
           <ul id="against-list" class="space-y-2"></ul>
         </div>
@@ -202,7 +202,17 @@
         Close
       </button>
     </div>
-
+    <footer class="text-center text-sm text-gray-400 dark:text-gray-600s mt-8 p-4">
+      <p class="mt-2">
+        Les données sont issues de l'Assemblée Nationale (OpenData). Ce site n'est pas affilié à l'Assemblée Nationale ni à un parti politique.
+      </p>
+      <p class="mt-2">
+        Les résumés sont générés par une intelligence artificielle et peuvent contenir des erreurs. Ce test n'a aucune valeur scientifique.
+      </p>
+      <p class="mt-2">
+        Vos données ne quittent pas votre appareil. Ce site est entièrement <a href="https://github.com/Paylicier/PoliticalTinder" class="text-blue-400 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300">open-source</a> et sous licence MIT.
+      </p>
+    </footer>
     <script>
       let allChoices = [];
       let currentChoices = [];

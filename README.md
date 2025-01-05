@@ -1,10 +1,36 @@
-# PoliticalTinder
-1. get data
-get all the data from the french assembly's website (opendata)
-parse grps using grp_parser.js
-then copy the grps array to vote_parser.js
-then run amendement_parser.js
-then run vote_parser.js
-then run summarize.js
-then clean up the cards.json files from broken cards.
-1. open or serve index.html
+# Politinder
+You know, sometimes, politics can be a bit overwhelming... So I made this project to help you find the political group that share your values, just like finding your perfect match (like on tinder ahah)!
+
+So in this game/app/quiz/thing, you will have to vote for or against amendments and the app will find your political group.
+
+Amendments are gathered from the french "Assemblée Nationale"'s api (OpenData).
+Amendents summaries are generated with Gemini.
+
+## Features
+- 📱 Responsive design (works on mobile and desktop)
+- 🎯 Match with political groups based on your votes
+- 🗳️ Real amendments from the French Assembly (it was hard to get so please vote for this project if you're on highseas)
+- 📊 See how your votes align with different political groups
+- 🌐 Static (no backend)
+
+## Deploy
+
+You need to serve votes.json, index.html and the parsed_am folder
+
+You can use any static hosting service like:
+- ✨ Cloudflare Pages ✨
+- GitHub Pages
+- Netlify
+- Vercel
+- Hackclub's nest
+- Any web server (Apache, Nginx, etc.)
+
+## Acknowledgement
+
+Thanks to:
+- The French Assembly for providing the data (even if it's not in the best format)
+- Ben Borgers for emojicdn
+
+## License
+
+This project is licensed under the terms of the MIT license.
